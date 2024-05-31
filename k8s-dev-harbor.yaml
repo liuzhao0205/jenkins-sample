@@ -31,6 +31,6 @@ spec:
      app: jenkins-demo
    type: NodePort
    ports:
-   - port: 11180
+   - port: 30001
      targetPort: 80
      nodePort: 80
